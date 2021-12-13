@@ -1,0 +1,135 @@
+#container {
+    width: 960px;
+    height: 665px;
+    background-color: #ffffff;
+}
+
+/*//////////////////////////////////////////*/
+
+body { 
+    font : 85% "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size : 16px; 
+    background-image : url(images/campo1.jpg); 
+    background-repeat : repeat-x; 
+    } 
+
+    
+
+ul.botonera {
+    list-style-type: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#contact {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 450px;
+    height: 570px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+}
+
+h2 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.formulario {
+    display: block;
+    margin: 0 auto;
+    width: 510px;
+    font-family: Arial;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+}
+
+input,
+textarea {
+    width: 380px;
+    height: 25px;
+    background: #2e2882;
+    border: 3px solid #cc5607;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+textarea {
+    height: 150px;
+}
+
+#submit {
+    width: 150px;
+    height: 45px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: -3px 3px 0px #03880e8f;
+}
+
+#mapa {
+    width: 435px;
+    height: 615px;
+    background-color: rgb(189, 151, 102);
+    float: right;
+    margin: 10px;
+}
+
+.mapa {
+    margin-top: 25px;
+    width: 400px;
+    height: 400px;
+    margin-left: 17px;
+}
+
+.mapa iframe {
+    height: 400px;
+    width: 400px;
+}
+
+#direc {
+    width: 400px;
+    height: 75px;
+    margin-left: 17px;
+    margin-top: 17px;
+    background: url("../img/logo_background.png");
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 25px
+}
+
+#direc p {
+    padding-top: 10px;
+    color: #fff
+}
+
+/*********************** media ********************/
+
+
+
+#footer a { 
+    color : #0000ff; 
+    } 
+.leftcontent { 
+    float : left; 
+    text-align : left; 
+    width : 85%;     
+} 
+    

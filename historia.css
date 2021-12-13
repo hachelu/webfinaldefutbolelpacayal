@@ -1,0 +1,62 @@
+#historia {
+    width: 960px;
+    height: 4440px;
+    background-color: rgb(255, 255, 255);
+}
+
+body { 
+    font : 85% "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size : 16px; 
+    background-image : url(images/campo1.jpg); 
+    background-repeat : repeat; 
+}     
+
+h2 {
+    margin-top: 0;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 40px;
+    color: #2e2882;
+}
+p {
+    margin: 0.1px;
+    font-size: 40px;
+    text-align: left;
+    position: relative;
+    top: 170px;
+    color: #d35207;  
+    
+  
+}
+
+#footer a { 
+    color : #0000ff; 
+} 
+.leftcontent { 
+    float : left; 
+    text-align : left; 
+    width : 85%;     
+} 
+
+.imagen_club {
+    width: 600px;
+    float: right;
+    border: 4px solid rgb(95, 85, 85);
+    margin: 10px 20px;
+    box-shadow: 4px 5px 10px 0 rgba(10, 5, 2, 3);
+}
+
+.club_1 {   
+    height: 264px;
+}
+
+.club_2 {
+    height: 289px;
+}
+
+.club_3 {
+    height: 237px;
+}
+
+
+

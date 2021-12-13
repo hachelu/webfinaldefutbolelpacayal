@@ -1,0 +1,150 @@
+#container {
+    width: 960px;
+    height: 850px;
+    background-color: rgb(16, 202, 47);
+}
+
+body { 
+    font : 85% "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size : 16px; 
+    background-image : url(images/campo1.jpg); 
+    background-repeat : repeat-x; 
+    } 
+
+h2,
+h3 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    color: #2e2882
+}
+
+h3 {
+    padding-bottom: 25px;
+    color: #ffffff
+}
+
+table {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 960px;
+    height: 400px;
+    padding: 25px;
+    border: 2px solid #fff;
+}
+
+th {
+    padding: 15px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #030e13;
+    border-bottom-color: #000000;
+    font-family: “Trebuchet MS”, Arial;
+}
+
+
+tr {
+    color: #fff;
+    font-size: 14px;
+}
+
+.azul {
+    background-color: #2e2882;
+}
+
+.rojo {
+    background-color: #e71919;
+}
+
+
+
+/*********************** media ********************/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    
+    
+    h2,
+    h3 {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    
+    table {
+        width: 580px;
+        height: auto;
+        padding: 0px;
+    }
+    
+    th {
+        padding: 0px;
+        font-size: 15px;
+        border-right-width: 1px;
+        border-bottom-width: 2px;
+    }
+    
+    tr {
+        font-size: 9px;
+        font-weight: bold;
+    }
+    
+    
+    
+}/* fin media 600 a 1023*/
+
+/*//////////////////////////////////////////*/
+
+@media all and (max-width: 599px) {
+
+    
+    
+    h2,
+    h3 {
+        padding-top: 15px;
+        font-size: 30px; 
+    }
+    
+    table {
+        width: 90%;
+        height: auto;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table tr {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #000;
+        margin: 10px;
+    }
+
+    table .dias_semana {
+        display: none;
+    }
+
+    table td[data-title] {
+        display: flex;
+    }
+
+    table td[data-title]::before {
+        content: attr(data-title);
+        width: 120px;  
+        font-weight: bold; 
+        text-align: left;
+    }
+    
+      
+}
+

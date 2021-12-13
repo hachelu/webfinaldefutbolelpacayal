@@ -1,0 +1,81 @@
+#container {
+    width: 960px;
+    height: 982px;
+    background-color: rgb(16, 202, 47);
+}
+
+body { 
+    font : 85% "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size : 16px; 
+    background-image : url(images/campo1.jpg); 
+    background-repeat : repeat; 
+    } 
+
+h2,
+h3 {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    color: #2e2882
+}
+
+h3 {
+    padding-bottom: 25px;
+    color: #ffffff
+}
+
+table {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 960px;
+    height: 400px;
+    padding: 25px;
+    border: 2px solid #fff;
+}
+
+th {
+    padding: 15px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #030e13;
+    border-bottom-color: #000000;
+    font-family: “Trebuchet MS”, Arial;
+}
+
+
+tr {
+    color: #fff;
+    font-size: 14px;
+}
+
+.azul {
+    background-color: #2e2882;
+}
+
+.rojo {
+    background-color: #e71919;
+}
+
+#footer a { 
+    color : #0000ff; 
+    } 
+.leftcontent { 
+    float : left; 
+    text-align : left; 
+    width : 85%;     
+} 
+
+
+  
+
+
